@@ -14,8 +14,8 @@ def gameplay():
 
 
 # Screen Setup
-WIDTH = 800
-HEIGHT = 600
+WIDTH = 480
+HEIGHT = 360
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 
 pygame.display.set_caption("PyPong")
@@ -34,7 +34,7 @@ bot_racket = Racket((
     racket_width, racket_height)
 
 ball = Ball((WIDTH // 2 - racket_width // 2, HEIGHT // 2 - racket_width // 2),
-            racket_width, WIDTH// 100)
+            racket_width, WIDTH // 80)
 
 controller = Controller(WIDTH, HEIGHT, player_racket, bot_racket, ball)
 
