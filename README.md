@@ -1,5 +1,4 @@
 # python-pong
-PYPONG!
 
 *Version 1.0*
 
